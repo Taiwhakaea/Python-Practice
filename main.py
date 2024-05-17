@@ -8,10 +8,10 @@ print ("ni hao man,", name)
 print ("ching.")
 
 # Ask the user a question
-answer = input("smash or pass\n")
+answer = input("smash or pass\n").upper()
 if answer == "smash".upper():
     print ("sigma")
-    score +=4
+    score +=4 
 elif answer == "":
     print ("stupid")
 else:
@@ -19,3 +19,4 @@ else:
 print ("ANSWER IS SMASH")
 # End the quiz
 print ("well done ni hao", score, "points")
+
